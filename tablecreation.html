@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablecreation</title>
+</head>
+<body>
+    <h1>SURVEY FORM</h1>
+    <link rel="stylesheet" href="table2.css">
+    <form id="form">
+        
+        <div class="form-control">
+            <label for="name" id="label-name">name</label>
+            <input type="text" id="name" placeholder="enter your name">
+        </div>
+        <div class="form-control">
+            <label for="email" id="label-email">email</label>
+            <input type="text" id="email" placeholder="enter your email">
+        </div>
+        <div class="form-control">
+            <label for="age" id="label-age">age</label>
+            <input type="text" id="age" placeholder="enter your age">
+        </div>
+        <div class="form-control">
+            <label for="role" id="label-role">which option best for your role</label>
+            <select name="role" id="role">
+                <option value="student">student</option>
+                <option value="intern">intern</option>
+                <option value="professional">professional</option>
+
+            </select>
+        </div>
+        <div class="form-control">
+            <label >how many years of experience you have</label>
+            <label for="recommed-1">
+                <input type="radio" id="recommed-1" name="recommed">No</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio" id="recommed-2" name="recommed">less than 1</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio" id="recommed-3" name="recommed">more than 1</input>
+            </label>
+        </div>
+        <div class="form-control">
+            <label for="comment">
+                any comment and suggesstion is there
+            </label>
+            <textarea name="comment" id="comment" placeholder="enter your comment here"></textarea>
+        </div>
+        <button type="submit" value="submit">submit</button>
+ </form>
+</body>
+</html>
